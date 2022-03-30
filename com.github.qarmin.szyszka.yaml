@@ -1,7 +1,7 @@
 app-id: com.github.qarmin.szyszka
-runtime: org.gnome.Platform
-runtime-version: '40'
-sdk: org.gnome.Sdk
+runtime: org.freedesktop.Platform
+runtime-version: '21.08'
+sdk: org.freedesktop.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
 command: szyszka
