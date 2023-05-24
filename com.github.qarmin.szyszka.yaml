@@ -1,7 +1,7 @@
 app-id: com.github.qarmin.szyszka
-runtime: org.freedesktop.Platform
-runtime-version: '21.08'
-sdk: org.freedesktop.Sdk
+runtime: org.gnome.Platform
+runtime-version: '44'
+sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
 command: szyszka
@@ -32,5 +32,5 @@ modules:
   - cargo-sources.json
   - type: git
     url: https://github.com/qarmin/szyszka.git
-    tag: 2.0.0
-    commit: 827b94496f09f0d0bea14e0d2f44bdf0496b1f76
+    tag: 3.0.0
+    commit: b7c552c96cc8572981ae946aad87fae284832277
