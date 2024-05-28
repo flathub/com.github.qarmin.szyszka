@@ -9,7 +9,7 @@ finish-args:
 - "--share=ipc"
 - "--socket=fallback-x11"
 - "--socket=wayland"
-- "--filesystem=/home"
+- "--filesystem=home"
 - "--filesystem=/mnt"
 - "--filesystem=/media"
 - "--filesystem=/run/media"
